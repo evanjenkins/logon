@@ -52,10 +52,10 @@
 // @include foundation-progress-element;
 // @include foundation-meter-element;
 // @include foundation-slider;
-// @include foundation-sticky;
+@include foundation-sticky;
 @include foundation-reveal;
 // @include foundation-switch;
-// @include foundation-table;
+@include foundation-table;
 // @include foundation-tabs;
 // @include foundation-thumbnail;
 @include foundation-title-bar;
@@ -95,6 +95,8 @@
 @import 'components/tooltip-help';
 @import 'components/custom-form-stuff';
 @import 'components/mfa';
+@import 'components/bol-admin';
+@import 'components/qdb-admin';
 
 // adapted hills 
 @import 'components/side-nav';
